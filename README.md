@@ -8,9 +8,11 @@ To run the program you just need to type the command "./.mcc progName.c", where:
 In order to skip to type "./.mcc" everytime you want to run my program, you can use the bash aliases.                           
 
   1 - Open a terminal and type: vi .bash_aliases                                                                               
-  2 - Type "i" to enter in the insert mode                                                                                     
+  2 - Hit i to enter in the insert mode                                                                                     
   3 - Type: alias mcc='~/.mcc'                                                                                                 
   4 - Hit Esc to enter in the command mode, then type: :wq
+  
+
 
 
 
