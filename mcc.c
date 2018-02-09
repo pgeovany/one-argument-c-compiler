@@ -10,12 +10,12 @@ void failure ();
 int checkOutput (char *output);
 
 int main(int argc, char **argv){
-	
-	char progName[30];
-	char command[50];
-	char output[50];
+
+	char progName[50];
+	char command[80];
+	char output[80];
 	struct stat fileStat;
-	
+
 	if (argv[1] == NULL || argc > 3 || stat(argv[1], &fileStat) < 0) {
 		puts("Error: invalid arguments!");
 		exit(EXIT_FAILURE);
@@ -29,7 +29,7 @@ int main(int argc, char **argv){
 
 		if(system(NULL))
 			run(command);
-		else 
+		else
 			failure();
 	}
 	return 0;
@@ -46,7 +46,7 @@ void outputUnspecified (char *progName, char *command, char **argv) {
 	}
 }
 
-void outputSpecified (char *progName, char *command, char*output, char **argv) {
+void outputSpecified (char *progName, char *command, char *output, char **argv) {
 	if (progName[strlen(progName) - 2] != '.' && progName[strlen(progName) - 1] != 'c') {
 		puts("Error: You must specify the program extension!");
 		exit(EXIT_FAILURE);
@@ -89,4 +89,3 @@ void failure() {
 	puts("Error: There is not a command processor available.");
 	exit(EXIT_FAILURE);
 }
-
