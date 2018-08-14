@@ -10,7 +10,7 @@ In order to avoid typing "./.mcc" everytime you want to run my script, you can u
   1 - Open a terminal.                                                                                                         
   2 - Type: alias mcc='/path/to/the/script'.
   
-After doing this, you will just need to type "mcc" to run the script instead of "./.mcc".
+After doing that you will just need to type "mcc" to run the script instead of "./.mcc".
   
 
 
