@@ -7,7 +7,7 @@ To run the script you just need to type the command "./.mcc progName.c", where: 
 # Making it easy:
 In order to avoid typing "./.mcc" everytime you want to run my script, you can use aliases.                           
 
-  1 - Open a terminal.
+  1 - Open a terminal.\n
   2 - Type: alias mcc='/path/to/the/script'.
   
 After doing this, you will just need to type "mcc" to run the script instead of "./.mcc".
