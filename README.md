@@ -4,7 +4,7 @@ Once is quite boring to type "gcc -o output progName.c" everytime you need to co
 # How to run it:
 To run the script you just need to type the command "./.mcc progName.c", where: ".mcc" is my script and "progName" is the name of your C source code. As I said before, you can also specify the output name, you just need to type it after your program name, like this: "./.mcc progName.c output".
 
-# Simplifying:
+# Simplifying it:
 In order to avoid typing "./.mcc" everytime you want to run my script, you can use aliases.                           
 
   1 - Open a terminal.                                                                                                         
